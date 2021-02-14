@@ -18,7 +18,7 @@ a {
   color: #eaebed;
 }
 a:hover {
-  color: #6633ff;
+  color: #cfb594;
 }
 
 /* Section Styles */
@@ -97,13 +97,22 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #5c7ca1;
-  border-bottom: 4px solid #ccc;
+  border-top: 8px solid #ccc;
+  border-bottom: 8px solid #ccc;
   border-radius: 6px;
   transition: all 0.5s;
   color: black;
 }
 .card:hover {
-  border-color: black;
+  border-color: #cfb594;
+}
+
+.card h2 {
+  color: #cfb594;
+}
+
+.card a {
+  color: black;
 }
 
 ul.skills {
